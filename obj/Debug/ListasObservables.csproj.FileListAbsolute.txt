@@ -1,0 +1,43 @@
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ApplicationIcon.png
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Background.png
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\AppManifest.xaml
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.xap
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ResolveAssemblyReference.cache
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\App.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListPicker.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\MainPage.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\XapCacheFile.xml
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Page1.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Page2.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.g.resources
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\PhoneApp1.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\PhoneApp1.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Ejercicios.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Portada.g.i.cs
+C:\Projects\Jos\ListasObservables\Bin\Debug\ApplicationIcon.png
+C:\Projects\Jos\ListasObservables\Bin\Debug\Background.png
+C:\Projects\Jos\ListasObservables\Bin\Debug\ListasObservables.dll
+C:\Projects\Jos\ListasObservables\Bin\Debug\ListasObservables.pdb
+C:\Projects\Jos\ListasObservables\Bin\Debug\AppManifest.xaml
+C:\Projects\Jos\ListasObservables\Bin\Debug\Properties\WMAppManifest.xml
+C:\Projects\Jos\ListasObservables\Bin\Debug\ListasObservables_Debug_AnyCPU.xap
+C:\Projects\Jos\ListasObservables\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Projects\Jos\ListasObservables\Bin\Debug\PhoneApp1.pdb
+C:\Projects\Jos\ListasObservables\obj\Debug\ListasObservables.csprojResolveAssemblyReference.cache
+C:\Projects\Jos\ListasObservables\obj\Debug\App.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\MainPage.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\ListPicker.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\Ejercicios.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\Page1.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\Page2.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\Portada.g.cs
+C:\Projects\Jos\ListasObservables\obj\Debug\ListasObservables.g.resources
+C:\Projects\Jos\ListasObservables\obj\Debug\ListasObservables.dll
+C:\Projects\Jos\ListasObservables\obj\Debug\ListasObservables.pdb
+C:\Projects\Jos\ListasObservables\obj\Debug\XapCacheFile.xml
