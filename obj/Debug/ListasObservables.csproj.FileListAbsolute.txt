@@ -1,0 +1,46 @@
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ApplicationIcon.png
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Background.png
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\AppManifest.xaml
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.xap
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\App.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListPicker.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\MainPage.g.i.cs
+c:\users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\XapCacheFile.xml
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Page1.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Page2.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\ListasObservables.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.g.resources
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\PhoneApp1.dll
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\Bin\Debug\PhoneApp1.pdb
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Ejercicios.g.i.cs
+C:\Users\oooo\Documents\Visual Studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\Portada.g.i.cs
+C:\Users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ListasObservables.csprojResolveAssemblyReference.cache
+C:\Users\oooo\documents\visual studio 2010\Projects\ListasObservables\ListasObservables\obj\Debug\ActSig.g.i.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\ApplicationIcon.png
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\Background.png
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\ListasObservables.dll
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\ListasObservables.pdb
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\AppManifest.xaml
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\ListasObservables_Debug_AnyCPU.xap
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Pedro\Documents\GitHub\ianapp\Bin\Debug\PhoneApp1.pdb
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ListasObservables.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\App.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\MainPage.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ListPicker.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\Ejercicios.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\Page1.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\Page2.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ActSig.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\Page3.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\Portada.g.cs
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ListasObservables.g.resources
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ListasObservables.dll
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\ListasObservables.pdb
+C:\Users\Pedro\Documents\GitHub\ianapp\obj\Debug\XapCacheFile.xml

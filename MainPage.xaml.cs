@@ -18,17 +18,40 @@ namespace ListasObservables
         public Entrada()
         {
             InitializeComponent();
-            Siguiente.IsEnabled = false;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            String s1 = this.txt.Text;
-            MessageBox.Show("Hola!  " + s1);
-            Siguiente.IsEnabled = true;
+            NombreRecibido();
         }
 
         private void Siguiente_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateNext();
+        }
+
+        private void txt_KeyUp(object sender, KeyEventArgs e)
+        {
+            //if enter was pressed
+            if (e.Key == Key.Enter)
+                NombreRecibido();
+        }
+
+        private void NombreRecibido()
+        {
+            if (!string.IsNullOrWhiteSpace(this.txt.Text))
+            {
+                MessageBox.Show("Hola!  " + this.txt.Text);
+                Siguiente.IsEnabled = true;
+                Siguiente.Focus();
+            }
+            else
+            {
+                MessageBox.Show("Necesita introducir su nombre", "Error!", MessageBoxButton.OK);
+            }
+        }
+
+        private void NavigateNext()
         {
             NavigationService.Navigate(new Uri("/Portada.xaml", UriKind.Relative));
         }

@@ -28,10 +28,10 @@
 
         <!--ContentPanel. Colocar aquí el contenido adicional-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock FontSize="30" Height="53" HorizontalAlignment="Left" Margin="78,46,0,0" Name="textBlock2" Text="  Ingresa tu nombre" VerticalAlignment="Top" Width="273" />
-            <TextBox Height="72" HorizontalAlignment="Center" Margin="36,179,46,0" Name="txt" Text="" VerticalAlignment="Top" Width="374" />
-            <Button Content="Aceptar" Height="72" HorizontalAlignment="Left" Margin="36,340,0,0" Name="button1" VerticalAlignment="Top" Width="160" Click="button1_Click" />
-            <Button Content="Siguiente" Height="72" HorizontalAlignment="Left" Margin="250,340,0,0" Name="Siguiente" VerticalAlignment="Top" Width="160" Click="Siguiente_Click" />
+            <TextBlock FontSize="30" Height="53" HorizontalAlignment="Left" Margin="88,59,0,0" Name="textBlock2" Text="  Ingresa tu nombre" VerticalAlignment="Top" Width="273" />
+            <TextBox Height="72" HorizontalAlignment="Center" Margin="49,179,33,0" Name="txt" Text="" VerticalAlignment="Top" Width="374" KeyUp="txt_KeyUp" />
+            <Button Content="Aceptar" Height="72" HorizontalAlignment="Left" Margin="35,340,0,0" Name="button1" VerticalAlignment="Top" Width="160" Click="button1_Click" />
+            <Button Content="Siguiente" Height="72" HorizontalAlignment="Left" Margin="254,340,0,0" Name="Siguiente" VerticalAlignment="Top" Width="160" Click="Siguiente_Click" IsEnabled="False" />
         </Grid>
     </Grid>
  
