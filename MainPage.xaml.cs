@@ -43,17 +43,24 @@ namespace ListasObservables
             {
                 MessageBox.Show("Hola!  " + this.txt.Text);
                 Siguiente.IsEnabled = true;
-                Siguiente.Focus();
+                //Siguiente.Focus();
+                NavigateNext();
             }
             else
             {
                 MessageBox.Show("Necesita introducir su nombre", "Error!", MessageBoxButton.OK);
+                Siguiente.IsEnabled = false;
             }
         }
 
         private void NavigateNext()
         {
             NavigationService.Navigate(new Uri("/Portada.xaml", UriKind.Relative));
+        }
+
+        private void txt_LostFocus(object sender, RoutedEventArgs e)
+        {
+            NombreRecibido();
         }
     }
 }

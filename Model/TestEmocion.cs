@@ -24,11 +24,12 @@ namespace ListasObservables.Model
             }
         }
 
-        public bool RespuestaCorrecta 
+        public bool RespuestaCorrecta
         {
-            get 
+            get
             {
                 return this.Respuesta.ToLower() == this.Nombre.ToLower();
             }
+        }
     }
 }

@@ -60,7 +60,8 @@ namespace ListasObservables
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Page1.xaml", UriKind.Relative));
+            //NavigationService.Navigate(new Uri("/Page1.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Page3.xaml", UriKind.Relative));
         }
     }
 }

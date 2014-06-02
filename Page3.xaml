@@ -6,15 +6,19 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:conv="clr-namespace:ListasObservables.Converter"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
-    shell:SystemTray.IsVisible="True">
-
+    
+    shell:SystemTray.IsVisible="True" >
+    <phone:PhoneApplicationPage.Resources>
+        <conv:StringToImage x:Key="ImgConverter"/>
+    </phone:PhoneApplicationPage.Resources>
     <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
-    <Grid x:Name="LayoutRoot" Background="DarkBlue">
+    <Grid x:Name="LayoutRoot" Background="White" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,14 +26,43 @@
 
         <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Ejercicios" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" FontSize="44" Text="¿Qué sentimiento ves?" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" 
+                       Foreground="Black"
+                       Text="Ejercicios" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Foreground="Black"
+                x:Name="PageTitle" FontSize="44" Text="¿Qué sentimiento ves?" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel. Colocar aquí el contenido adicional-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Image Height="252" HorizontalAlignment="Left" Margin="100,12,0,0" Name="image1" Source="felicidad.jpg" Stretch="Fill" VerticalAlignment="Top" Width="246" />
-            <TextBox Height="72" HorizontalAlignment="Left" Margin="68,264,0,0" Name="tbUsuario" Text="Respuesta" VerticalAlignment="Top" Width="301" />
+            <Image Height="252" HorizontalAlignment="Left" 
+                   Margin="100,12,0,0" Name="image1" 
+                   Source="{Binding PreguntaActual.Imagen, Mode=OneWay,Converter={StaticResource ImgConverter}}" 
+                   Stretch="Fill" 
+                   VerticalAlignment="Top" Width="246" />
+            <TextBox Height="72" HorizontalAlignment="Left" 
+                     Margin="68,264,0,0" Name="tbRespuesta" 
+                     Text="{Binding PreguntaActual.Respuesta, Mode=TwoWay}" 
+                     VerticalAlignment="Top" 
+                     Width="301" 
+                     Foreground="Black"
+                     BorderBrush="Black"
+                     GotFocus="tbUsuario_GotFocus" LostFocus="tbRespuesta_LostFocus" KeyUp="tbRespuesta_KeyUp"
+                     />
+            <TextBlock 
+                Foreground="Black"
+                FontSize="34" Height="87" HorizontalAlignment="Left" Margin="78,358,0,0" Name="tbMensaje" Text="" VerticalAlignment="Top" Width="291" />
+
+            <Button Background="Black" x:Name="cmdAyuda" Content="Ayuda" Height="72" HorizontalAlignment="Left" Margin="27,452,0,0" VerticalAlignment="Top" Width="158" Click="cmdAyuda_Click"  />
+            <Button  Background="DarkGreen" x:Name="cmdAceptar" Content="Aceptar" Height="72" HorizontalAlignment="Right" Margin="0,452,19,0"  VerticalAlignment="Top" Width="160" Click="cmdAceptar_Click"  />
+            <Button Background="SteelBlue"  
+                    x:Name="cmdSiguiente" 
+                    Content="Siguiente" 
+                    Height="72" HorizontalAlignment="Left" 
+                    Margin="84,554,0,0" 
+                    VerticalAlignment="Top" Width="262"
+                    Click="cmdSiguiente_Click"  />
+            
         </Grid>
     </Grid>
  
