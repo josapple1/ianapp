@@ -118,7 +118,9 @@
       <DependentUpon>Ejercicios.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Emocion.cs" />
+    <Compile Include="Model\Letra.cs" />
     <Compile Include="Model\TestEmocion.cs" />
+    <Compile Include="Model\TestLetra.cs" />
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
@@ -135,6 +137,8 @@
       <DependentUpon>Portada.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\LetrasClase.cs" />
     <Compile Include="ViewModel\TestEmociones.cs" />
   </ItemGroup>
   <ItemGroup>
