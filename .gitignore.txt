@@ -18,6 +18,8 @@ bld/
 [Oo]bj/
 Bin/
 Obj/
+bin/
+obj/
 
 # Roslyn cache directories
 *.ide/
