@@ -25,8 +25,7 @@ namespace ListasObservables
 
         void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "PreguntaActual")
-                TocaSonido();
+            
         }
 
         private void cmdSiguiente_Click(object sender, RoutedEventArgs e)
@@ -51,15 +50,15 @@ namespace ListasObservables
             {
                 this.tbMensaje.Text = "Correcto!";
                 this.cmdSiguiente.IsEnabled = true;
-                if (correcto.CurrentState != System.Windows.Media.MediaElementState.Playing)
-                    correcto.Play();
+                //if (correcto.CurrentState != System.Windows.Media.MediaElementState.Playing)
+                //    correcto.Play();
 
             }
             else
             {
                 this.cmdSiguiente.IsEnabled = false;
-                if (error.CurrentState != System.Windows.Media.MediaElementState.Playing)
-                    error.Play();
+                //if (error.CurrentState != System.Windows.Media.MediaElementState.Playing)
+                //    error.Play();
             }
 
         }
@@ -72,7 +71,10 @@ namespace ListasObservables
         private void TocaSonido()
         {
             if (sonidos.CurrentState != System.Windows.Media.MediaElementState.Playing)
+            {
+                sonidos.Position =  new TimeSpan(0, 0, 0, 0,0);
                 sonidos.Play();
+            }
         }
     }
 }

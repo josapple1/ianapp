@@ -10,7 +10,7 @@ namespace ListasObservables.ViewModel
     public class TestLetras : LasLetras
     {
 
-        Random rnd = new Random();
+        Random rnd = new Random(DateTime.Now.Second);
         public TestLetras()
         {
             //Select the other two
@@ -86,10 +86,10 @@ namespace ListasObservables.ViewModel
             all.Add(lt2);
             all.Add(lt3);
             //assign them 
-            Letra1 = all[rnd.Next(0, 2)];
+            Letra1 = all[rnd.Next(0, 3)];
             all.Remove(Letra1);
-            Letra2 = all[rnd.Next(0, 1)];
-            all.Remove(Letra1);
+            Letra2 = all[rnd.Next(0, 2)];
+            all.Remove(Letra2);
             Letra3 = all.First();
             all.Clear();
         }

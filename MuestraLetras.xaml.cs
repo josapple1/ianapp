@@ -26,8 +26,8 @@ namespace ListasObservables
 
         void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "PreguntaActual")
-                TocaSonido();
+            //if (e.PropertyName == "PreguntaActual")
+            //    TocaSonido();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

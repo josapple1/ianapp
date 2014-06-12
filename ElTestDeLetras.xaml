@@ -14,7 +14,7 @@
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
     <phone:PhoneApplicationPage.Resources>
-        <conv:StringToSound x:Key="SndConverter"/>
+        <conv:StringToSound x:Key="SndConverter2"/>
     </phone:PhoneApplicationPage.Resources>
     <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
     <Grid x:Name="LayoutRoot" Background="White" >
@@ -38,48 +38,41 @@
 
             <!--Text="{Binding PreguntaActual.Nombre, Mode=OneWay}"-->
             <TextBlock FontSize="170" 
-                       Text="A" 
+                       Text="{Binding Letra1.Nombre, Mode=OneWay}" 
                        Margin="20"
                         Foreground="Black"
                        HorizontalAlignment="Left"
                       MouseLeftButtonUp="TextBlock_MouseLeftButtonUp">
             </TextBlock>
             <TextBlock FontSize="170" 
-                       Text="B"
+                       Text="{Binding Letra2.Nombre, Mode=OneWay}"
                         Foreground="Black"
                        HorizontalAlignment="Center"
                        MouseLeftButtonUp="TextBlock_MouseLeftButtonUp"
                       >
             </TextBlock>
             <TextBlock FontSize="170" 
-                       Text="C"
+                       Text="{Binding Letra3.Nombre, Mode=OneWay}"
                        Margin="20"
                         Foreground="Black"
                        HorizontalAlignment="Right"
                       MouseLeftButtonUp="TextBlock_MouseLeftButtonUp" >
             </TextBlock>
 
-            <Button  Click="Button_Click">
+            <Button  Click="Button_Click" Height="150"
+                     Width="200"  Margin="0,270,0,0">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <Image Source="sound.png" Height="120" 
-                    Margin="0,304,0,0" 
+                    Margin="0,-10,0,0" 
                     ></Image>
                     </DataTemplate>
                 </Button.ContentTemplate>
             </Button>
 
             <MediaElement AutoPlay="False" 
-                          Source="{Binding PreguntaActual.Sonido, Mode=OneWay, Converter={StaticResource SndConverter}}"
+                          Source="{Binding PreguntaActual.Sonido, Mode=OneWay, Converter={StaticResource SndConverter2}}"
                           Visibility="Collapsed" x:Name="sonidos" ></MediaElement>
-
-            <MediaElement AutoPlay="False" 
-                          Source="Sonidos/correct.mp3"
-                          Visibility="Collapsed" x:Name="correcto" ></MediaElement>
-
-            <MediaElement AutoPlay="False" 
-                          Source="Sonidos/wrong.mp3"
-                          Visibility="Collapsed" x:Name="error" ></MediaElement>
 
             <TextBlock 
                 Foreground="Black"
