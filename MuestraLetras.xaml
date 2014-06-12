@@ -63,9 +63,20 @@
                     x:Name="cmdSiguiente" 
                     Content="Siguiente" 
                     Height="72" HorizontalAlignment="Left" 
-                    Margin="84,554,0,0" 
-                    VerticalAlignment="Top" Width="262"
+                    Margin="284,554,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="162"
                     Click="cmdSiguiente_Click" />
+
+            <Button Background="SteelBlue"  
+                    x:Name="cmdAntes" 
+                    Content="Anterior" 
+                    Height="72" 
+                    HorizontalAlignment="Left" 
+                    Margin="4,554,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="162"
+                    Click="cmdAntes_Click" />
 
         </Grid>
     </Grid>

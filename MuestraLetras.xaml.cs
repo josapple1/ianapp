@@ -35,12 +35,20 @@ namespace ListasObservables
             if (!ViewModel.EsUltima)
             {
                 ViewModel.SiguientePregunta();
-                sonidos.Play();
             }
             else
             {
                 MessageBox.Show("Has terminado!", "Felicidades!", MessageBoxButton.OK);
                 NavigationService.Navigate(new Uri("/Portada.xaml", UriKind.Relative));
+            }
+        }
+
+        private void cmdAntes_Click(object sender, RoutedEventArgs e)
+        {
+            if (!ViewModel.EsPrimera)
+            {
+                ViewModel.AnteriorPregunta();
+                sonidos.Play();
             }
         }
     }
