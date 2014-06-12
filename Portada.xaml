@@ -34,7 +34,7 @@
             <!--Elemento Pivot dos-->
             <controls:PivotItem Header="Temas:">
                 <Grid>
-                    <TextBlock FontSize="28" HorizontalAlignment="Center" Margin="23,41,215,497" Name="textBlock1" TextAlignment="Center" Text="Sentimientos" Width="218" Height="56" />
+                    <TextBlock FontSize="28" HorizontalAlignment="Center" Margin="23,41,215,497" Name="textBlock1" TextAlignment="Center" Text="Aprende" Width="218" Height="56" />
                     <Image Height="182" HorizontalAlignment="Left" Source="emociones.jpg" Margin="244,23,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="179" />
                     <TextBlock FontSize="28" Height="56" HorizontalAlignment="Center" Margin="23,0,215,220" Name="textBlock2" TextAlignment="Center" Text="Actividades" Width="219" VerticalAlignment="Bottom" />
                     <Image Height="196" Source="hands2.jpg" HorizontalAlignment="Left" Margin="238,285,0,0" Name="image4" Stretch="Fill" VerticalAlignment="Top" Width="197" />
