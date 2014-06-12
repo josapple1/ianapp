@@ -216,6 +216,33 @@
     <Content Include="ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Sonidos\a.mp3" />
+    <Content Include="Sonidos\b.mp3" />
+    <Content Include="Sonidos\c.mp3" />
+    <Content Include="Sonidos\d.mp3" />
+    <Content Include="Sonidos\e.mp3" />
+    <Content Include="Sonidos\f.mp3" />
+    <Content Include="Sonidos\g.mp3" />
+    <Content Include="Sonidos\h.mp3" />
+    <Content Include="Sonidos\i.mp3" />
+    <Content Include="Sonidos\j.mp3" />
+    <Content Include="Sonidos\k.mp3" />
+    <Content Include="Sonidos\l.mp3" />
+    <Content Include="Sonidos\m.mp3" />
+    <Content Include="Sonidos\n.mp3" />
+    <Content Include="Sonidos\o.mp3" />
+    <Content Include="Sonidos\p.mp3" />
+    <Content Include="Sonidos\q.mp3" />
+    <Content Include="Sonidos\r.mp3" />
+    <Content Include="Sonidos\s.mp3" />
+    <Content Include="Sonidos\t.mp3" />
+    <Content Include="Sonidos\u.mp3" />
+    <Content Include="Sonidos\v.mp3" />
+    <Content Include="Sonidos\w.mp3" />
+    <Content Include="Sonidos\x.mp3" />
+    <Content Include="Sonidos\y.mp3" />
+    <Content Include="Sonidos\z.mp3" />
+    <Content Include="Sonidos\ñ.mp3" />
     <Content Include="sound.png" />
     <Resource Include="hands2.jpg" />
     <Resource Include="hands.jpg" />
@@ -242,9 +269,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Sonidos\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
