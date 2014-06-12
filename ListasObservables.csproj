@@ -108,6 +108,9 @@
     </Compile>
     <Compile Include="Converter\StringToImage.cs" />
     <Compile Include="Converter\StringToSound.cs" />
+    <Compile Include="ElTestDeLetras.xaml.cs">
+      <DependentUpon>ElTestDeLetras.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -153,6 +156,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ElTestDeLetras.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -213,12 +220,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="abc.jpg" />
     <Content Include="ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Sonidos\a.mp3" />
+    <Content Include="Sonidos\agua.mp3" />
     <Content Include="Sonidos\b.mp3" />
     <Content Include="Sonidos\c.mp3" />
+    <Content Include="Sonidos\correct.mp3" />
     <Content Include="Sonidos\d.mp3" />
     <Content Include="Sonidos\e.mp3" />
     <Content Include="Sonidos\f.mp3" />
@@ -239,6 +249,7 @@
     <Content Include="Sonidos\u.mp3" />
     <Content Include="Sonidos\v.mp3" />
     <Content Include="Sonidos\w.mp3" />
+    <Content Include="Sonidos\wrong.mp3" />
     <Content Include="Sonidos\x.mp3" />
     <Content Include="Sonidos\y.mp3" />
     <Content Include="Sonidos\z.mp3" />

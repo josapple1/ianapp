@@ -39,5 +39,10 @@ namespace ListasObservables
         {
             NavigationService.Navigate(new Uri("/Page3.xaml", UriKind.Relative));
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/ElTestDeLetras.xaml", UriKind.Relative));
+        }
     }
 }

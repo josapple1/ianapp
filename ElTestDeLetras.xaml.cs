@@ -11,17 +11,16 @@ using ListasObservables.ViewModel;
 
 namespace ListasObservables
 {
-    public partial class MuestraLetras : PhoneApplicationPage
+    public partial class ElTestDeLetras : PhoneApplicationPage
     {
-
-        protected LasLetras ViewModel;
-
-        public MuestraLetras()
+        protected TestLetras ViewModel;
+        public ElTestDeLetras()
         {
             InitializeComponent();
-            ViewModel = new LasLetras();
+            ViewModel = new TestLetras();
             this.DataContext = ViewModel;
-            this.ViewModel.PropertyChanged+=ViewModel_PropertyChanged;
+            this.cmdSiguiente.IsEnabled = false;
+            ViewModel.PropertyChanged += ViewModel_PropertyChanged;
         }
 
         void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -30,17 +29,13 @@ namespace ListasObservables
                 TocaSonido();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            TocaSonido();
-        }
-
-
         private void cmdSiguiente_Click(object sender, RoutedEventArgs e)
         {
             if (!ViewModel.EsUltima)
             {
                 ViewModel.SiguientePregunta();
+                this.cmdSiguiente.IsEnabled = false;
+                this.tbMensaje.Text = string.Empty;
             }
             else
             {
@@ -49,15 +44,30 @@ namespace ListasObservables
             }
         }
 
-        private void cmdAntes_Click(object sender, RoutedEventArgs e)
+        private void TextBlock_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            if (!ViewModel.EsPrimera)
+            var tb = sender as TextBlock;
+            if (ViewModel.RespuestaCorrecta(tb.Text))
             {
-                ViewModel.AnteriorPregunta();
-                sonidos.Play();
+                this.tbMensaje.Text = "Correcto!";
+                this.cmdSiguiente.IsEnabled = true;
+                if (correcto.CurrentState != System.Windows.Media.MediaElementState.Playing)
+                    correcto.Play();
+
             }
+            else
+            {
+                this.cmdSiguiente.IsEnabled = false;
+                if (error.CurrentState != System.Windows.Media.MediaElementState.Playing)
+                    error.Play();
+            }
+
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TocaSonido();
+        }
 
         private void TocaSonido()
         {

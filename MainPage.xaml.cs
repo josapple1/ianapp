@@ -15,6 +15,8 @@ namespace ListasObservables
 {
     public partial class Entrada : PhoneApplicationPage
     {
+        bool NombreListo = false;
+
         public Entrada()
         {
             InitializeComponent();
@@ -39,17 +41,21 @@ namespace ListasObservables
 
         private void NombreRecibido()
         {
-            if (!string.IsNullOrWhiteSpace(this.txt.Text))
+            if (!NombreListo)
             {
-                MessageBox.Show("Hola!  " + this.txt.Text);
-                Siguiente.IsEnabled = true;
-                //Siguiente.Focus();
-                NavigateNext();
-            }
-            else
-            {
-                MessageBox.Show("Necesita introducir su nombre", "Error!", MessageBoxButton.OK);
-                Siguiente.IsEnabled = false;
+                if (!string.IsNullOrWhiteSpace(this.txt.Text))
+                {
+                    MessageBox.Show("Hola!  " + this.txt.Text);
+                    Siguiente.IsEnabled = true;
+                    //Siguiente.Focus();
+                    NombreListo = true;
+                    NavigateNext();
+                }
+                else
+                {
+                    MessageBox.Show("Necesita introducir su nombre", "Error!", MessageBoxButton.OK);
+                    Siguiente.IsEnabled = false;
+                }
             }
         }
 
