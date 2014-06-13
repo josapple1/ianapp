@@ -75,7 +75,7 @@ namespace ListasObservables
 
         private void cmdAyuda_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show(ViewModel.Help, "Escoge entre", MessageBoxButton.OK);
         }
 
         private void tbRespuesta_KeyUp(object sender, KeyEventArgs e)

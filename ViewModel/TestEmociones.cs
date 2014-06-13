@@ -12,6 +12,25 @@ namespace ListasObservables.ViewModel
 {
     public class TestEmociones  : BaseViewModel<TestEmocion>
     {
+        string _Help = null; 
+        public string Help 
+        {
+            get 
+            {
+                if (_Help == null)
+                {
+                    StringBuilder h = new StringBuilder();
+                    foreach (var e in Preguntas)
+                    {
+                        h.Append(e.Nombre);
+                        if (Preguntas.Last() != e)
+                            h.Append(", ");
+                        _Help = h.ToString();
+                    }
+                }
+                return _Help;
+            }
+        }
 
         /// <summary>
         /// Constructor default
