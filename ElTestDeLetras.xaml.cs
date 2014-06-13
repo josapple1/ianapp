@@ -48,7 +48,7 @@ namespace ListasObservables
             var tb = sender as TextBlock;
             if (ViewModel.RespuestaCorrecta(tb.Text))
             {
-                this.tbMensaje.Text = "Correcto!";
+                this.tbMensaje.Text = "Es correcto!";
                 this.cmdSiguiente.IsEnabled = true;
                 //if (correcto.CurrentState != System.Windows.Media.MediaElementState.Playing)
                 //    correcto.Play();
@@ -56,6 +56,7 @@ namespace ListasObservables
             }
             else
             {
+                this.tbMensaje.Text = "Uy, esa no es!";
                 this.cmdSiguiente.IsEnabled = false;
                 //if (error.CurrentState != System.Windows.Media.MediaElementState.Playing)
                 //    error.Play();
